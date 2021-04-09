@@ -1,0 +1,112 @@
+[2021-04-06 18:38:47,700] {scheduler_job.py:182} INFO - Started process (PID=37) to work on /opt/airflow/dags/smartsensor.py
+[2021-04-06 18:38:47,720] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/smartsensor.py for tasks to queue
+[2021-04-06 18:38:47,722] {logging_mixin.py:104} INFO - [2021-04-06 18:38:47,721] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/smartsensor.py
+[2021-04-06 18:38:47,883] {logging_mixin.py:104} INFO - [2021-04-06 18:38:47,868] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/smartsensor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/smartsensor.py", line 6, in <module>
+    from plugins.smart_file_sensor import SmartFileSensor
+ModuleNotFoundError: No module named 'plugins'
+[2021-04-06 18:38:47,896] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/smartsensor.py
+[2021-04-06 18:38:48,038] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/smartsensor.py took 0.397 seconds
+[2021-04-06 18:39:21,344] {scheduler_job.py:182} INFO - Started process (PID=85) to work on /opt/airflow/dags/smartsensor.py
+[2021-04-06 18:39:21,372] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/smartsensor.py for tasks to queue
+[2021-04-06 18:39:21,377] {logging_mixin.py:104} INFO - [2021-04-06 18:39:21,376] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/smartsensor.py
+[2021-04-06 18:39:21,706] {logging_mixin.py:104} INFO - [2021-04-06 18:39:21,675] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/smartsensor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/smartsensor.py", line 6, in <module>
+    from plugins.smart_file_sensor import SmartFileSensor
+ModuleNotFoundError: No module named 'plugins'
+[2021-04-06 18:39:21,730] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/smartsensor.py
+[2021-04-06 18:39:21,944] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/smartsensor.py took 0.700 seconds
+[2021-04-06 18:39:53,408] {scheduler_job.py:182} INFO - Started process (PID=133) to work on /opt/airflow/dags/smartsensor.py
+[2021-04-06 18:39:53,417] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/smartsensor.py for tasks to queue
+[2021-04-06 18:39:53,431] {logging_mixin.py:104} INFO - [2021-04-06 18:39:53,430] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/smartsensor.py
+[2021-04-06 18:39:53,646] {logging_mixin.py:104} INFO - [2021-04-06 18:39:53,621] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/smartsensor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/smartsensor.py", line 6, in <module>
+    from plugins.smart_file_sensor import SmartFileSensor
+ModuleNotFoundError: No module named 'plugins'
+[2021-04-06 18:39:53,664] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/smartsensor.py
+[2021-04-06 18:39:53,813] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/smartsensor.py took 0.440 seconds
+[2021-04-06 18:40:24,202] {scheduler_job.py:182} INFO - Started process (PID=177) to work on /opt/airflow/dags/smartsensor.py
+[2021-04-06 18:40:24,213] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/smartsensor.py for tasks to queue
+[2021-04-06 18:40:24,221] {logging_mixin.py:104} INFO - [2021-04-06 18:40:24,220] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/smartsensor.py
+[2021-04-06 18:40:24,406] {logging_mixin.py:104} INFO - [2021-04-06 18:40:24,379] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/smartsensor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/smartsensor.py", line 6, in <module>
+    from plugins.smart_file_sensor import SmartFileSensor
+ModuleNotFoundError: No module named 'plugins'
+[2021-04-06 18:40:24,440] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/smartsensor.py
+[2021-04-06 18:40:24,704] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/smartsensor.py took 0.527 seconds
+[2021-04-06 18:40:54,876] {scheduler_job.py:182} INFO - Started process (PID=225) to work on /opt/airflow/dags/smartsensor.py
+[2021-04-06 18:40:54,881] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/smartsensor.py for tasks to queue
+[2021-04-06 18:40:54,885] {logging_mixin.py:104} INFO - [2021-04-06 18:40:54,885] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/smartsensor.py
+[2021-04-06 18:40:54,942] {logging_mixin.py:104} INFO - [2021-04-06 18:40:54,934] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/smartsensor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/smartsensor.py", line 6, in <module>
+    from plugins.smart_file_sensor import SmartFileSensor
+ModuleNotFoundError: No module named 'plugins'
+[2021-04-06 18:40:54,953] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/smartsensor.py
+[2021-04-06 18:40:55,009] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/smartsensor.py took 0.142 seconds
+[2021-04-06 18:41:26,014] {scheduler_job.py:182} INFO - Started process (PID=276) to work on /opt/airflow/dags/smartsensor.py
+[2021-04-06 18:41:26,020] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/smartsensor.py for tasks to queue
+[2021-04-06 18:41:26,023] {logging_mixin.py:104} INFO - [2021-04-06 18:41:26,023] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/smartsensor.py
+[2021-04-06 18:41:26,095] {logging_mixin.py:104} INFO - [2021-04-06 18:41:26,084] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/smartsensor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/smartsensor.py", line 6, in <module>
+    from plugins.smart_file_sensor import SmartFileSensor
+ModuleNotFoundError: No module named 'plugins'
+[2021-04-06 18:41:26,107] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/smartsensor.py
+[2021-04-06 18:41:26,201] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/smartsensor.py took 0.204 seconds
+[2021-04-06 18:41:56,328] {scheduler_job.py:182} INFO - Started process (PID=319) to work on /opt/airflow/dags/smartsensor.py
+[2021-04-06 18:41:56,330] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/smartsensor.py for tasks to queue
+[2021-04-06 18:41:56,332] {logging_mixin.py:104} INFO - [2021-04-06 18:41:56,332] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/smartsensor.py
+[2021-04-06 18:41:56,390] {logging_mixin.py:104} INFO - [2021-04-06 18:41:56,384] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/smartsensor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/smartsensor.py", line 6, in <module>
+    from plugins.smart_file_sensor import SmartFileSensor
+ModuleNotFoundError: No module named 'plugins'
+[2021-04-06 18:41:56,400] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/smartsensor.py
+[2021-04-06 18:41:56,489] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/smartsensor.py took 0.168 seconds
+[2021-04-06 18:42:28,568] {scheduler_job.py:182} INFO - Started process (PID=372) to work on /opt/airflow/dags/smartsensor.py
+[2021-04-06 18:42:28,576] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/smartsensor.py for tasks to queue
+[2021-04-06 18:42:28,586] {logging_mixin.py:104} INFO - [2021-04-06 18:42:28,585] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/smartsensor.py
+[2021-04-06 18:42:28,823] {logging_mixin.py:104} INFO - [2021-04-06 18:42:28,802] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/smartsensor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/smartsensor.py", line 6, in <module>
+    from plugins.smart_file_sensor import SmartFileSensor
+ModuleNotFoundError: No module named 'plugins'
+[2021-04-06 18:42:28,836] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/smartsensor.py
+[2021-04-06 18:42:29,026] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/smartsensor.py took 0.485 seconds
